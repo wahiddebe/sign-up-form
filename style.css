@@ -5,8 +5,8 @@
   margin: 0;
   padding: 0;
   --green: #596d48;
-  --blue: #1919f4;
-  --red: #ac0101;
+  --blue: #2563eb;
+  --red: #dc2626;
 }
 
 body {
@@ -132,7 +132,8 @@ a {
 
 .form-input:focus {
   border: var(--blue) 2px solid;
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 5px rgba(37, 99, 235, 0.5);
+  outline: none;
 }
 
 .form-label {
